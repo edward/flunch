@@ -18,4 +18,5 @@ module Flunch
 	VERSION = "9.9.9"
 end
 
-require 'flunch/strike_that'
+require File.join(File.dirname(__FILE__), *%w[flunch strike_that])
+require File.join(File.dirname(__FILE__), *%w[flunch heartburn])
